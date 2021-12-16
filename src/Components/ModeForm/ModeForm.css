@@ -1,0 +1,39 @@
+.form {
+    justify-self: end;
+    font-size: 30px;
+}
+
+.form select {
+    width: 380px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.form select:focus{
+    border: 2px solid var(--primary-blue);
+}
+
+.form button {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.form button:disabled{
+    background-color: var(--primary-gray);
+    cursor: not-allowed;
+}

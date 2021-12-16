@@ -1,0 +1,21 @@
+.squares {
+    align-self: start;
+    justify-self: end;
+    box-sizing: content-box;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.square {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.active {
+    background-color: var(--primary-blue);
+}

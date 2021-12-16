@@ -1,0 +1,19 @@
+.toasts {
+    align-self: start;
+    overflow-y: auto;
+    height: 500px;
+    width: 240px;
+}
+
+.toast {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--primary-light-blue);
+    border: 2px solid var(--primary-blue);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    text-align: left;
+}
